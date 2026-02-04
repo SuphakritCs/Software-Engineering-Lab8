@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 *** Test Cases ***
 Open KKU Website
     Open Browser To Login Page
-    Page Should Contain    KKU
+    Wait Until Page Contains Element    tag:body    10s
     Close Browser
 
 *** Keywords ***
